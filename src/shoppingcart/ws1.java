@@ -1,4 +1,4 @@
-package ws1;
+package shoppingcart;
 
 import java.io.Console;
 import java.util.LinkedList;
