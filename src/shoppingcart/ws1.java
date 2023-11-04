@@ -57,7 +57,13 @@ public class ws1{
                 }
                 else System.out.println("Incorrect item index");
             }
-            else {System.out.println("start command with Add or Delete or list");}
+            else if (splitItem[0].equals("exit")) {
+                System.out.println("Exit Shopping cart");
+                userinput = false;
+            }
+
+            
+            else {System.out.println("start command with Add, Delete, List or Exit");}
 
 
 
